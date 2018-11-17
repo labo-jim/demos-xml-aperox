@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="clients">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="client"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="client">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="prenom" type="xs:string"/>
+        <xs:element name="date-naissance" type="xs:date"/>
+        <xs:element ref="permis-declares"/>
+        <xs:element ref="formation"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:ID" />
+    </xs:complexType>
+  </xs:element>
+ 
+  <xs:element name="permis-declares">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="permis"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="permis">
+    <xs:complexType>
+      <xs:attribute name="date-obtention" use="required" type="xs:date"/>
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  
+  
+  <xs:element name="formation">
+    <xs:complexType>
+      <xs:choice minOccurs="0">
+        <xs:element ref="declaration-experience"/>
+        <xs:element ref="initiation"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  
+  
+  <xs:element name="declaration-experience">
+    <xs:complexType>
+      <xs:attribute name="date" use="required" type="xs:date"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="initiation">
+    <xs:complexType>
+      <xs:attribute name="date-validation" use="required" type="xs:date"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

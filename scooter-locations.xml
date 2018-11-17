@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locations>
+    <location debut="2018-11-15T17:02:00"
+        fin="2018-11-15T18:12:00" client="dupont-jean-75" />
+    <location debut="2018-11-13T14:14:00"
+        fin="2018-11-15T18:12:00" client="dupont-jean-75" />
+    <location debut="2018-11-13T12:10:00"
+        fin="2018-09-30T17:12:00" client="martin-julie-92" />
+    <location debut="2018-11-15T17:02:00"
+        fin="2018-11-15T18:12:00" client="dupont-jean-75" />
+    <location debut="2018-11-15T17:02:00"
+        fin="2018-11-15T18:12:00" client="martin-julie-92" />
+    <location debut="2018-11-15T17:02:00"
+        fin="2018-09-30T15:12:00" client="dupont-jean-75" />
+    <location debut="2018-09-30T20:02:00"
+        fin="2018-11-15T18:12:00" client="martin-julie-92" />
+    <location debut="2019-09-25T11:25:00"
+        fin="2019-09-25T11:55:00" client="dupont-jean-75" />
+    <location debut="2018-11-15T17:02:00"
+        fin="2018-11-15T18:12:00" client="martin-julie-92" />
+    <location debut="2018-11-15T17:02:00"
+        fin="2018-11-15T18:12:00" client="dupont-jean-75" />
+    <location debut="2018-11-15T17:02:00"
+        fin="2018-11-15T18:12:00" client="martin-julie-92" />
+    <location debut="2018-11-15T17:02:00"
+        fin="2018-11-15T18:12:00" client="martin-julie-92" />
+    <location debut="2018-11-15T17:02:00"
+        fin="2018-11-15T18:12:00" client="dupont-jean-75" />
+    <location debut="2018-11-15T17:02:00"
+        fin="2018-11-15T18:12:00" client="dupont-jean-75" />
+</locations>

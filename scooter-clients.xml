@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients>
+    <client id="dupont-jean-75">
+        <nom>Dupont</nom>
+        <prenom>Jean</prenom>
+        <date-naissance>1975-02-14</date-naissance>
+        <permis-declares>
+            <permis type="PERMIS-B" date-obtention="1996-10-27" />
+            <permis type="PERMIS-A1" date-obtention="1999-11-24" />
+        </permis-declares>
+        <formation>
+            <initiation date-validation="2017-04-05" />
+        </formation>
+    </client>
+    
+    <client id="martin-julie-92">
+        <nom>Martin</nom>
+        <prenom>Julie</prenom>
+        <date-naissance>1993-12-20</date-naissance>
+        <permis-declares>
+            <permis type="BSR" date-obtention="2012-01-13" />
+        </permis-declares>
+        <formation>
+            <declaration-experience date="2018-09-10" />
+        </formation>
+    </client>
+    
+    <client id="petit-franck-78">
+        <nom>Petit</nom>
+        <prenom>Franck</prenom>
+        <date-naissance>1991-03-25</date-naissance>
+        <permis-declares>
+            
+        </permis-declares>
+        <formation>
+            
+        </formation>
+    </client>  
+</clients>
